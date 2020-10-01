@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS movies;
+CREATE TABLE movies(
+movieId INT AUTO_INCREMENT PRIMARY KEY,
+movieName VARCHAR(250) NOT NULL,
+movieReleaseYear VARCHAR(250) NOT NULL,
+ratings INT NOT NULL
+);
+
